@@ -8,6 +8,7 @@ function App() {
 
   return (
     <Routes>
+      <Route path="/" element={<Navigate to="/posts" replace />} />
       <Route path='/posts' element={<Posts />}></Route>
       <Route path='/posts/:id' element={<Post />}></Route>
     </Routes>
