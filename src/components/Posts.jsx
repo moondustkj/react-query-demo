@@ -72,7 +72,7 @@ export default function Posts() {
                                     padding: "10px",
                                     height: "100%"
                                 }}>
-                                    <Link href={'/posts/' + post.id} underline="hover">
+                                    <Link href={'posts/' + post.id} underline="hover">
                                         <Typography variant='h5' color='textSecondary'>{post.title}</Typography>
                                     </Link>
                                     <Typography>{post.body}</Typography>
@@ -83,7 +83,6 @@ export default function Posts() {
                 )) : ''
             }
             </Grid>
-            
         </div>
     )
 }

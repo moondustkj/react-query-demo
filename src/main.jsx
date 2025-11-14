@@ -11,7 +11,7 @@ const queryClient = new QueryClient();
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/react-query-demo">
       <Provider store={store}>
         <QueryClientProvider client={queryClient}>
           <App />
