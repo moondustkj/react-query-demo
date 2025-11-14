@@ -1,7 +1,7 @@
 import './App.css'
 import CanvasBoard from './components/CanvasBoard'
 import Posts from './components/Posts'
-import { Route, Routes } from 'react-router-dom'
+import { Route, Routes, Navigate } from 'react-router-dom'
 import Post from './components/Post'
 
 function App() {
